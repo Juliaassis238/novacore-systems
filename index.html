@@ -1,19 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <!--
+<!--
     ============================================================
     NOVACORE SYSTEMS — Premium Tech Company
     Projeto desenvolvido por Júlia Ágata de Assis
     ============================================================
   -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NovaCore Systems — Future-Ready Technology</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NovaCore Systems — Future-Ready Technology</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
     :root {
       --black: #020408;
       --dark: #060d1a;
@@ -416,278 +416,268 @@
   </style>
 </head>
 <body>
-
-  <canvas id="particles-canvas"></canvas>
-
-  <nav class="navbar" id="navbar">
-    <a href="#" class="logo">
-      <span class="logo-bracket">[</span>NovaCore<span class="logo-bracket">]</span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="#servicos">Soluções</a></li>
-      <li><a href="#dashboard">Plataforma</a></li>
-      <li><a href="#clientes">Clientes</a></li>
-      <li><a href="#contato">Contato</a></li>
-      <li><a href="#contato" class="nav-cta"><span>Iniciar Projeto</span></a></li>
-    </ul>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-  </nav>
-
-  <div class="mobile-menu" id="mobileMenu">
-    <button class="menu-close-btn" id="menuClose">&#x2715;</button>
-    <a href="#servicos" class="menu-link">Soluções</a>
-    <a href="#dashboard" class="menu-link">Plataforma</a>
-    <a href="#contato" class="menu-link">Contato</a>
-  </div>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-grid"></div>
-    <div class="hero-radial"></div>
-    <div class="hero-content">
-      <p class="hero-mono"><span>// </span>NovaCore Systems — v4.2.0 — 2024</p>
-      <h1 class="hero-title">
-        Build the<br>
-        <span class="cyan">Future</span><br>
-        <span class="outline">Now.</span>
-      </h1>
-      <p class="hero-desc">
+<canvas id="particles-canvas"></canvas>
+<nav class="navbar" id="navbar">
+<a class="logo" href="#">
+<span class="logo-bracket">[</span>NovaCore<span class="logo-bracket">]</span>
+</a>
+<ul class="nav-links">
+<li><a href="#servicos">Soluções</a></li>
+<li><a href="#dashboard">Plataforma</a></li>
+<li><a href="#clientes">Clientes</a></li>
+<li><a href="#contato">Contato</a></li>
+<li><a class="nav-cta" href="#contato"><span>Iniciar Projeto</span></a></li>
+</ul>
+<button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+<button class="menu-close-btn" id="menuClose">✕</button>
+<a class="menu-link" href="#servicos">Soluções</a>
+<a class="menu-link" href="#dashboard">Plataforma</a>
+<a class="menu-link" href="#contato">Contato</a>
+</div>
+<!-- HERO -->
+<section class="hero">
+<div class="hero-grid"></div>
+<div class="hero-radial"></div>
+<div class="hero-content">
+<p class="hero-mono"><span>// </span>NovaCore Systems — v4.2.0 — 2024</p>
+<h1 class="hero-title">
+        Build the<br/>
+<span class="cyan">Future</span><br/>
+<span class="outline">Now.</span>
+</h1>
+<p class="hero-desc">
         Arquitetamos soluções tecnológicas de alto impacto para empresas que não aceitam mediocridade. IA, cloud, segurança e automação em uma única plataforma inteligente.
       </p>
-      <div class="hero-actions">
-        <a href="#servicos" class="btn-cyan">Explorar Soluções</a>
-        <a href="#contato" class="btn-outline-cyan">Falar com Especialista</a>
-      </div>
-      <div class="hero-metrics">
-        <div class="metric"><strong>99.99%</strong><span>Uptime Garantido</span></div>
-        <div class="metric"><strong>2.4ms</strong><span>Latência Média</span></div>
-        <div class="metric"><strong>850+</strong><span>Empresas Atendidas</span></div>
-        <div class="metric"><strong>ISO27001</strong><span>Certificação</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVIÇOS -->
-  <section class="section-services" id="servicos">
-    <div class="services-header">
-      <span class="mono-label">// core_services.init()</span>
-      <h2 class="section-title reveal">Nossas <span>Soluções</span></h2>
-    </div>
-    <div class="services-grid">
-      <div class="service-card reveal">
-        <span class="service-number">01</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        </div>
-        <h3>Inteligência Artificial</h3>
-        <p>Modelos de ML customizados, NLP avançado e automação cognitiva para processos empresariais críticos.</p>
-        <div class="service-tags">
-          <span class="service-tag">Machine Learning</span>
-          <span class="service-tag">NLP</span>
-          <span class="service-tag">Computer Vision</span>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-1">
-        <span class="service-number">02</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <h3>Cloud Computing</h3>
-        <p>Infraestrutura elástica, multi-cloud gerenciado e migração zero-downtime para empresas de qualquer porte.</p>
-        <div class="service-tags">
-          <span class="service-tag">AWS</span>
-          <span class="service-tag">Azure</span>
-          <span class="service-tag">GCP</span>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-2">
-        <span class="service-number">03</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h3>Cyber Security</h3>
-        <p>SOC 24/7, pentest contínuo, gestão de vulnerabilidades e conformidade com LGPD, ISO 27001 e SOC 2.</p>
-        <div class="service-tags">
-          <span class="service-tag">SOC 24/7</span>
-          <span class="service-tag">Zero Trust</span>
-          <span class="service-tag">LGPD</span>
-        </div>
-      </div>
-      <div class="service-card reveal">
-        <span class="service-number">04</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <h3>Data & Analytics</h3>
-        <p>Pipelines de dados em tempo real, data warehousing moderno e dashboards executivos com BI avançado.</p>
-        <div class="service-tags">
-          <span class="service-tag">BigQuery</span>
-          <span class="service-tag">Spark</span>
-          <span class="service-tag">Power BI</span>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-1">
-        <span class="service-number">05</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-        </div>
-        <h3>DevOps & Automação</h3>
-        <p>CI/CD pipelines, IaC com Terraform, containers, Kubernetes e cultura DevSecOps de alta maturidade.</p>
-        <div class="service-tags">
-          <span class="service-tag">Kubernetes</span>
-          <span class="service-tag">Terraform</span>
-          <span class="service-tag">GitOps</span>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-2">
-        <span class="service-number">06</span>
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
-        </div>
-        <h3>Software Engineering</h3>
-        <p>Desenvolvimento de produtos digitais escaláveis com arquiteturas modernas, microserviços e APIs de alto desempenho.</p>
-        <div class="service-tags">
-          <span class="service-tag">Microservices</span>
-          <span class="service-tag">REST/GraphQL</span>
-          <span class="service-tag">React</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- DASHBOARD -->
-  <section class="section-dashboard" id="dashboard">
-    <div class="dashboard-inner">
-      <div class="dashboard-text reveal">
-        <span class="mono-label">// platform.overview()</span>
-        <h2 class="section-title" style="margin-bottom:1.5rem;">Plataforma <span>NovaCore</span></h2>
-        <p class="dashboard-body">
+<div class="hero-actions">
+<a class="btn-cyan" href="#servicos">Explorar Soluções</a>
+<a class="btn-outline-cyan" href="#contato">Falar com Especialista</a>
+</div>
+<div class="hero-metrics">
+<div class="metric"><strong>99.99%</strong><span>Uptime Garantido</span></div>
+<div class="metric"><strong>2.4ms</strong><span>Latência Média</span></div>
+<div class="metric"><strong>850+</strong><span>Empresas Atendidas</span></div>
+<div class="metric"><strong>ISO27001</strong><span>Certificação</span></div>
+</div>
+</div>
+</section>
+<!-- SERVIÇOS -->
+<section class="section-services" id="servicos">
+<div class="services-header">
+<span class="mono-label">// core_services.init()</span>
+<h2 class="section-title reveal">Nossas <span>Soluções</span></h2>
+</div>
+<div class="services-grid">
+<div class="service-card reveal">
+<span class="service-number">01</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+</div>
+<h3>Inteligência Artificial</h3>
+<p>Modelos de ML customizados, NLP avançado e automação cognitiva para processos empresariais críticos.</p>
+<div class="service-tags">
+<span class="service-tag">Machine Learning</span>
+<span class="service-tag">NLP</span>
+<span class="service-tag">Computer Vision</span>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-1">
+<span class="service-number">02</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><rect height="14" rx="2" width="20" x="2" y="3"></rect><path d="M8 21h8M12 17v4"></path></svg>
+</div>
+<h3>Cloud Computing</h3>
+<p>Infraestrutura elástica, multi-cloud gerenciado e migração zero-downtime para empresas de qualquer porte.</p>
+<div class="service-tags">
+<span class="service-tag">AWS</span>
+<span class="service-tag">Azure</span>
+<span class="service-tag">GCP</span>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-2">
+<span class="service-number">03</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+</div>
+<h3>Cyber Security</h3>
+<p>SOC 24/7, pentest contínuo, gestão de vulnerabilidades e conformidade com LGPD, ISO 27001 e SOC 2.</p>
+<div class="service-tags">
+<span class="service-tag">SOC 24/7</span>
+<span class="service-tag">Zero Trust</span>
+<span class="service-tag">LGPD</span>
+</div>
+</div>
+<div class="service-card reveal">
+<span class="service-number">04</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+</div>
+<h3>Data &amp; Analytics</h3>
+<p>Pipelines de dados em tempo real, data warehousing moderno e dashboards executivos com BI avançado.</p>
+<div class="service-tags">
+<span class="service-tag">BigQuery</span>
+<span class="service-tag">Spark</span>
+<span class="service-tag">Power BI</span>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-1">
+<span class="service-number">05</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+</div>
+<h3>DevOps &amp; Automação</h3>
+<p>CI/CD pipelines, IaC com Terraform, containers, Kubernetes e cultura DevSecOps de alta maturidade.</p>
+<div class="service-tags">
+<span class="service-tag">Kubernetes</span>
+<span class="service-tag">Terraform</span>
+<span class="service-tag">GitOps</span>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-2">
+<span class="service-number">06</span>
+<div class="service-icon">
+<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"></path></svg>
+</div>
+<h3>Software Engineering</h3>
+<p>Desenvolvimento de produtos digitais escaláveis com arquiteturas modernas, microserviços e APIs de alto desempenho.</p>
+<div class="service-tags">
+<span class="service-tag">Microservices</span>
+<span class="service-tag">REST/GraphQL</span>
+<span class="service-tag">React</span>
+</div>
+</div>
+</div>
+</section>
+<!-- DASHBOARD -->
+<section class="section-dashboard" id="dashboard">
+<div class="dashboard-inner">
+<div class="dashboard-text reveal">
+<span class="mono-label">// platform.overview()</span>
+<h2 class="section-title" style="margin-bottom:1.5rem;">Plataforma <span>NovaCore</span></h2>
+<p class="dashboard-body">
           Nossa plataforma unificada oferece visibilidade completa de todos os seus ativos tecnológicos. Monitore, gerencie e otimize em tempo real com alertas inteligentes e dashboards customizáveis.
         </p>
-        <ul class="dashboard-features">
-          <li>Monitoramento em tempo real com SLA 99.99%</li>
-          <li>Escalabilidade automática baseada em IA</li>
-          <li>Integração nativa com 200+ ferramentas</li>
-          <li>Alertas preditivos com ML embarcado</li>
-          <li>Conformidade automatizada e relatórios</li>
-        </ul>
-        <br>
-        <a href="#contato" class="btn-cyan" style="display:inline-block; margin-top:1.5rem;">Solicitar Demo</a>
-      </div>
-      <div class="dashboard-visual reveal reveal-delay-2" id="dashVisual">
-        <div class="dash-header">
-          <div class="dash-dot red"></div>
-          <div class="dash-dot yellow"></div>
-          <div class="dash-dot green"></div>
-          <span class="dash-title">novacore://dashboard/realtime</span>
-        </div>
-        <div class="dash-stat-grid">
-          <div class="dash-stat"><span class="dash-stat-val" id="d1">0</span><span class="dash-stat-label">Req/s</span></div>
-          <div class="dash-stat"><span class="dash-stat-val" id="d2">0%</span><span class="dash-stat-label">CPU</span></div>
-          <div class="dash-stat"><span class="dash-stat-val" id="d3">0ms</span><span class="dash-stat-label">Latência</span></div>
-        </div>
-        <div class="dash-bar-wrap">
-          <div class="dash-bar-label"><span>API Gateway</span><span>98%</span></div>
-          <div class="dash-bar"><div class="dash-bar-fill" data-w="98" style="width:0%"></div></div>
-          <div class="dash-bar-label"><span>Database Cluster</span><span>72%</span></div>
-          <div class="dash-bar"><div class="dash-bar-fill" data-w="72" style="width:0%"></div></div>
-          <div class="dash-bar-label"><span>ML Pipeline</span><span>85%</span></div>
-          <div class="dash-bar"><div class="dash-bar-fill" data-w="85" style="width:0%"></div></div>
-          <div class="dash-bar-label"><span>Cache Layer</span><span>64%</span></div>
-          <div class="dash-bar"><div class="dash-bar-fill" data-w="64" style="width:0%"></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CLIENTES -->
-  <section class="section-clients" id="clientes">
-    <p class="clients-label">Empresas que confiam na NovaCore</p>
-    <div class="clients-track-wrap">
-      <div class="clients-track">
-        <span class="client-logo">Nexus Corp</span>
-        <span class="client-logo">Vortex Finance</span>
-        <span class="client-logo">Aether Health</span>
-        <span class="client-logo">Vertex Retail</span>
-        <span class="client-logo">Pulse Media</span>
-        <span class="client-logo">Orbit Logistics</span>
-        <span class="client-logo">Zenith Labs</span>
-        <span class="client-logo">Nexus Corp</span>
-        <span class="client-logo">Vortex Finance</span>
-        <span class="client-logo">Aether Health</span>
-        <span class="client-logo">Vertex Retail</span>
-        <span class="client-logo">Pulse Media</span>
-        <span class="client-logo">Orbit Logistics</span>
-        <span class="client-logo">Zenith Labs</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section class="section-contact" id="contato">
-    <div class="contact-inner">
-      <div class="contact-left reveal">
-        <span class="mono-label">// contact.init()</span>
-        <h2 class="contact-title">Vamos construir o <span>futuro</span> juntos.</h2>
-        <p class="contact-body">Nossa equipe de arquitetos de solução está pronta para entender seus desafios e propor a abordagem tecnológica mais eficiente para o seu negócio.</p>
-        <div class="contact-info-items">
-          <div class="contact-info-item">
-            <div class="contact-info-item-text"><strong>Headquarters</strong><span>Av. Faria Lima, 4440 — SP</span></div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-item-text"><strong>E-mail</strong><span>hello@novacore.systems</span></div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-item-text"><strong>Phone</strong><span>+55 (11) 4040-9090</span></div>
-          </div>
-        </div>
-      </div>
-      <div class="contact-form reveal reveal-delay-2">
-        <form onsubmit="return false;">
-          <div class="cf-row">
-            <div class="cf-field"><label>Nome</label><input type="text" placeholder="Seu nome" /></div>
-            <div class="cf-field"><label>E-mail</label><input type="email" placeholder="seu@empresa.com" /></div>
-          </div>
-          <div class="cf-row">
-            <div class="cf-field"><label>Empresa</label><input type="text" placeholder="Nome da empresa" /></div>
-            <div class="cf-field"><label>Solução de Interesse</label>
-              <select>
-                <option>Selecione</option>
-                <option>Inteligência Artificial</option>
-                <option>Cloud Computing</option>
-                <option>Cyber Security</option>
-                <option>Data & Analytics</option>
-                <option>DevOps</option>
-              </select>
-            </div>
-          </div>
-          <div class="cf-field"><label>Descreva seu desafio</label><textarea placeholder="// Descreva brevemente o projeto..."></textarea></div>
-          <button type="submit" class="btn-cyan" style="width:100%; font-family:var(--font-mono); border:none; cursor:pointer; font-size:0.75rem; letter-spacing:0.15em;">
+<ul class="dashboard-features">
+<li>Monitoramento em tempo real com SLA 99.99%</li>
+<li>Escalabilidade automática baseada em IA</li>
+<li>Integração nativa com 200+ ferramentas</li>
+<li>Alertas preditivos com ML embarcado</li>
+<li>Conformidade automatizada e relatórios</li>
+</ul>
+<br/>
+<a class="btn-cyan" href="#contato" style="display:inline-block; margin-top:1.5rem;">Solicitar Demo</a>
+</div>
+<div class="dashboard-visual reveal reveal-delay-2" id="dashVisual">
+<div class="dash-header">
+<div class="dash-dot red"></div>
+<div class="dash-dot yellow"></div>
+<div class="dash-dot green"></div>
+<span class="dash-title">novacore://dashboard/realtime</span>
+</div>
+<div class="dash-stat-grid">
+<div class="dash-stat"><span class="dash-stat-val" id="d1">0</span><span class="dash-stat-label">Req/s</span></div>
+<div class="dash-stat"><span class="dash-stat-val" id="d2">0%</span><span class="dash-stat-label">CPU</span></div>
+<div class="dash-stat"><span class="dash-stat-val" id="d3">0ms</span><span class="dash-stat-label">Latência</span></div>
+</div>
+<div class="dash-bar-wrap">
+<div class="dash-bar-label"><span>API Gateway</span><span>98%</span></div>
+<div class="dash-bar"><div class="dash-bar-fill" data-w="98" style="width:0%"></div></div>
+<div class="dash-bar-label"><span>Database Cluster</span><span>72%</span></div>
+<div class="dash-bar"><div class="dash-bar-fill" data-w="72" style="width:0%"></div></div>
+<div class="dash-bar-label"><span>ML Pipeline</span><span>85%</span></div>
+<div class="dash-bar"><div class="dash-bar-fill" data-w="85" style="width:0%"></div></div>
+<div class="dash-bar-label"><span>Cache Layer</span><span>64%</span></div>
+<div class="dash-bar"><div class="dash-bar-fill" data-w="64" style="width:0%"></div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- CLIENTES -->
+<section class="section-clients" id="clientes">
+<p class="clients-label">Empresas que confiam na NovaCore</p>
+<div class="clients-track-wrap">
+<div class="clients-track">
+<span class="client-logo">Nexus Corp</span>
+<span class="client-logo">Vortex Finance</span>
+<span class="client-logo">Aether Health</span>
+<span class="client-logo">Vertex Retail</span>
+<span class="client-logo">Pulse Media</span>
+<span class="client-logo">Orbit Logistics</span>
+<span class="client-logo">Zenith Labs</span>
+<span class="client-logo">Nexus Corp</span>
+<span class="client-logo">Vortex Finance</span>
+<span class="client-logo">Aether Health</span>
+<span class="client-logo">Vertex Retail</span>
+<span class="client-logo">Pulse Media</span>
+<span class="client-logo">Orbit Logistics</span>
+<span class="client-logo">Zenith Labs</span>
+</div>
+</div>
+</section>
+<!-- CONTATO -->
+<section class="section-contact" id="contato">
+<div class="contact-inner">
+<div class="contact-left reveal">
+<span class="mono-label">// contact.init()</span>
+<h2 class="contact-title">Vamos construir o <span>futuro</span> juntos.</h2>
+<p class="contact-body">Nossa equipe de arquitetos de solução está pronta para entender seus desafios e propor a abordagem tecnológica mais eficiente para o seu negócio.</p>
+<div class="contact-info-items">
+<div class="contact-info-item">
+<div class="contact-info-item-text"><strong>Headquarters</strong><span>Av. Faria Lima, 4440 — SP</span></div>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-item-text"><strong>E-mail</strong><span>hello@novacore.systems</span></div>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-item-text"><strong>Phone</strong><span>+55 (11) 4040-9090</span></div>
+</div>
+</div>
+</div>
+<div class="contact-form reveal reveal-delay-2">
+<form onsubmit="return false;">
+<div class="cf-row">
+<div class="cf-field"><label>Nome</label><input placeholder="Seu nome" type="text"/></div>
+<div class="cf-field"><label>E-mail</label><input placeholder="seu@empresa.com" type="email"/></div>
+</div>
+<div class="cf-row">
+<div class="cf-field"><label>Empresa</label><input placeholder="Nome da empresa" type="text"/></div>
+<div class="cf-field"><label>Solução de Interesse</label>
+<select>
+<option>Selecione</option>
+<option>Inteligência Artificial</option>
+<option>Cloud Computing</option>
+<option>Cyber Security</option>
+<option>Data &amp; Analytics</option>
+<option>DevOps</option>
+</select>
+</div>
+</div>
+<div class="cf-field"><label>Descreva seu desafio</label><textarea placeholder="// Descreva brevemente o projeto..."></textarea></div>
+<button class="btn-cyan" style="width:100%; font-family:var(--font-mono); border:none; cursor:pointer; font-size:0.75rem; letter-spacing:0.15em;" type="submit">
             Enviar Mensagem
           </button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <a href="#" class="logo"><span class="logo-bracket">[</span>NovaCore<span class="logo-bracket">]</span></a>
-        <p>Tecnologia de ponta para empresas que constroem o futuro. Inovação sem compromisso com a mediocridade.</p>
-      </div>
-      <div class="footer-col"><h4>Soluções</h4><ul><li><a href="#">Inteligência Artificial</a></li><li><a href="#">Cloud Computing</a></li><li><a href="#">Cyber Security</a></li><li><a href="#">Data Analytics</a></li></ul></div>
-      <div class="footer-col"><h4>Empresa</h4><ul><li><a href="#">Sobre Nós</a></li><li><a href="#">Casos de Uso</a></li><li><a href="#">Blog Técnico</a></li><li><a href="#">Carreiras</a></li></ul></div>
-      <div class="footer-col"><h4>Contato</h4><ul><li><a href="#">hello@novacore.systems</a></li><li><a href="#">+55 (11) 4040-9090</a></li><li><a href="#">São Paulo, SP</a></li><li><a href="#">Seg–Sex, 8h às 20h</a></li></ul></div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 NovaCore Systems. All rights reserved.</p>
-      <p>Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
-    </div>
-  </footer>
-
-  <script>
+</form>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-inner">
+<div class="footer-brand">
+<a class="logo" href="#"><span class="logo-bracket">[</span>NovaCore<span class="logo-bracket">]</span></a>
+<p>Tecnologia de ponta para empresas que constroem o futuro. Inovação sem compromisso com a mediocridade.</p>
+</div>
+<div class="footer-col"><h4>Soluções</h4><ul><li><a href="#">Inteligência Artificial</a></li><li><a href="#">Cloud Computing</a></li><li><a href="#">Cyber Security</a></li><li><a href="#">Data Analytics</a></li></ul></div>
+<div class="footer-col"><h4>Empresa</h4><ul><li><a href="#">Sobre Nós</a></li><li><a href="#">Casos de Uso</a></li><li><a href="#">Blog Técnico</a></li><li><a href="#">Carreiras</a></li></ul></div>
+<div class="footer-col"><h4>Contato</h4><ul><li><a href="#">hello@novacore.systems</a></li><li><a href="#">+55 (11) 4040-9090</a></li><li><a href="#">São Paulo, SP</a></li><li><a href="#">Seg–Sex, 8h às 20h</a></li></ul></div>
+</div>
+<div class="footer-bottom">
+<p>© 2024 NovaCore Systems. All rights reserved.</p>
+<p>Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
+</div>
+</footer>
+<script>
     /* ============================================================
        NOVACORE SYSTEMS — Main Script
     ============================================================ */
